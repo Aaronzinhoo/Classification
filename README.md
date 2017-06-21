@@ -1,0 +1,4 @@
+# Classification
+Least Squares Classification vs K-Nearest Neighbors
+
+Different machine learning techniques tackle problems such as clasiffication with different assumptions on the data and resulting in various ways to address different datasets. The Least Squares approach we will see works best under linearly seperable data since it uses the assumption of gaussian distributed points to create the segragation of classes. This performs poorly when there is considerable overlapping as we will see. On the other hand KNN performs really well under either assumption on gaussian distributed data regardless of the overlapping, so long as we choose an appropriate value for k, the number of neighbors we use to classify a point. The conclusion is that KNN is the better classifier seeing that is it created for that purpose whereas LS is more suited for regression, a common result in many applications of it.
